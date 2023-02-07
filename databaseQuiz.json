@@ -1,0 +1,45 @@
+[
+  
+  {
+    "id" : "1",
+    "question" : "You are driving on a straight, level highway at 50 mph. There are no vehicles in front of you. Suddenly tire blew out of your vehicle, what should you do first?",
+    "a" : "Begin light braking.",
+    "b" : "Stay off the brake until the vehicle has slowed down.",
+    "c" : "Begin emergency braking.",
+    "answer" : "b"
+  },
+  {
+    "id" : "2",
+    "question" : "You are driving a track with a manual transmission. What gear will you probably have to use to take a long steep downhill grade?",
+    "a" : "A higher gear than you would use to climb the hill.",
+    "b" : "The same gear you would use to climb the hill.",
+    "c" : "A lower gear then you would use to climb the hill.",
+    "answer" : "c"
+  },
+  {
+    "id" : "3",
+    "question" : "You are checking your wheels and rims for a pre-trip inspection. Which of these statements is true?",
+    "a" : "A vehicle can be safely driven with one missing lug nut on a wheel.",
+    "b" : "Rust around wheel nuts may mean that they are loose.",
+    "c" : "Mismatched lock rings can be used on the same vehicle.",
+    "answer" : "b"
+  },
+  {
+    "id" : "4",
+    "question" : "You are checking your tires for a pre-trip inspection. Which of these statements is true?",
+    "a" : "Radial and bias-ply tires can be used together on the same vehicle.",
+    "b" : "2/32-inch tread depth is safe for front tires.",
+    "c" : "Tires of mismatched sizes should not be used together in the same vehicle.",
+    "answer" : "c"
+  },
+  {
+    "id" : "",
+    "question" : "",
+    "a" : "",
+    "b" : "",
+    "c" : "",
+    "answer" : ""
+  }
+  
+
+]

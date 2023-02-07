@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Test Truck General</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js" defer></script>
+  <!-- Custom scripts -->
+  <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+
+  <div class="container my-5">
+
+    <div id="intro">
+      <div class="counter">
+        <p class="prefix">Question:</p>
+        <h1 id="counter">1/3</h1>
+      </div>
+      <div class="score">
+        <p class="prefix">Score:</p>
+        <h1 id="score">3</h1>
+      </div>
+    </div>
+
+    <div class="question-holder row">
+      <div class="col-12">
+        <h1 id="question">What is the answer ....</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="answer-container card">
+          <p class="answer-prefix">A</p>
+          <p class="answer-text" data-answer="a">Answer A</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="answer-container card">
+          <p class="answer-prefix">B</p>
+          <p class="answer-text" data-answer="b">Answer B</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="answer-container card">
+          <p class="answer-prefix">C</p>
+          <p class="answer-text" data-answer="c">Answer C</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <!-- end container -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="endTestModal" tabindex="-1" aria-labelledby="exempleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Test Ended</h5>
+            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="modal-body"><h1>End Test</h1></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="restart">Restart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
