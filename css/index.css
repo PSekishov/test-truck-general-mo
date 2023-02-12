@@ -23,12 +23,16 @@ h1 {
   text-align: center;
 }
 
+
 .question-holder{
-  height: 10rem;
+  /* height: 10rem; */
+  height: auto;
   display: flex;
-  text-align: center;
+  /* text-align: center; */
   align-items: center;
+  margin-bottom: 2rem;
 }
+
 
 .answer-container{
   display: flex;

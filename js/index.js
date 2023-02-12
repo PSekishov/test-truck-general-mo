@@ -4,10 +4,15 @@ const questionCounterText = document.getElementById("counter");
 const scoreText = document.getElementById("score");
 const restart = document.getElementById("restart");
 
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+
+
 // console.log(questions);
 let questionCounter;
 let score;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 1;
 let acceptingAnswers;
 
 
@@ -45,7 +50,7 @@ const getRandomQuestions = (arr, n) => {
 
 // function displayResaults
 const displayResaults = () => {
-    const myModalEl = document.getElementById('myModal');
+    // const myModalEl = document.getElementById('myModal');
     const modal = new mdb.Modal(endTestModal);
     const modalBody = document.getElementById('modal-body');
     modalBody.innerText = `You scored: ${score}`; 
@@ -66,9 +71,16 @@ const getNewQuestions = () => {
   questionCounterText.innerText = `${questionCounter} / ${MAX_QUESTIONS}`;
 
   currentQuestion = availableQuestions[0];
+  currentQuestionRus = currentQuestion['question_ru'];
+  translate = currentQuestion['translate'];
+  // console.log(currentQuestion['question_ru'])
+
+  // question.innerText = translate ? `${currentQuestion.question}\n${currentQuestionRus}` : currentQuestion.question;
   question.innerText = currentQuestion.question;
 
   answers.forEach( answer => {
+    // console.log(currentQuestion['a_ru']) 
+    console.log(currentQuestion[answer.dataset['answer']]) 
     answer.innerText = currentQuestion[answer.dataset['answer']];
   });
   //TODO add randomization 
