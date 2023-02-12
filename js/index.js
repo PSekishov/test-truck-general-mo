@@ -12,7 +12,7 @@ function googleTranslateElementInit() {
 // console.log(questions);
 let questionCounter;
 let score;
-const MAX_QUESTIONS = 1;
+const MAX_QUESTIONS = 3;
 let acceptingAnswers;
 
 
